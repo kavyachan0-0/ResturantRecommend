@@ -125,7 +125,7 @@ body {
   
   #mobile-drawer .nav-item a:hover,
   #mobile-drawer .nav-item a:active {
-    color: rgb(240, 167, 9);uname -m
+    color: rgb(240, 167, 9);
   }
   
   @media (min-width: 60rem) {
