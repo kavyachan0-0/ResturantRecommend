@@ -39,7 +39,7 @@ app.post('/recommend',function(req,res){
    fs.writeFileSync(filePath, JSON.stringify(storedRestaurants));
 
    res.redirect('/confirm');
-});
+});  
 
 app.listen(3001);
 
