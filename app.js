@@ -29,7 +29,7 @@ app.get('/about',function(req,res){
 });
 
 app.post('/recommend',function(req,res){
-   const restaurant = res.body;
+   const restaurant = req.body;
    const filePath = path.join(__dirname,'data','restaurant.json');
    const fileData = fs.readFileSync(filePath);
    const storedRestaurants = JSON.parse(fileData);
